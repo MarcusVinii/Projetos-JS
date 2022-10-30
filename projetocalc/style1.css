@@ -1,0 +1,390 @@
+body {
+    background-image: linear-gradient(to right, purple,cyan,rgb(108, 0, 250));
+}
+
+.calculadora {
+    background-color: black;
+    width: 760px;
+    height: 850px;
+    display: flexbox;
+    position: relative;
+    margin-left: 520px;
+    margin-top: 150px;
+    border-radius: 5%;
+}
+
+#b0 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 40px;
+    margin-left: 4%;
+    margin-top: 90%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b1 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 40px;
+    margin-left: 4%;
+    margin-top: 74%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b2 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 40px;
+    margin-left: 26%;
+    margin-top: 74%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b3 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 40px;
+    margin-left:48%;
+    margin-top: 74%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b4 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 70%;
+    margin-top: 74%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b5 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 4%;
+    margin-top: 58%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b6 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 26%;
+    margin-top: 58%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b7 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 48%;
+    margin-top: 58%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b8 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 70%;
+    margin-top: 58%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#b9 {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 4%;
+    margin-top: 42%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#AC {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 70%;
+    margin-top: 26%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#M {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 26%;
+    margin-top: 42%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#V {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 48%;
+    margin-top: 42%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#S {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 70%;
+    margin-top: 42%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#D {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 4%;
+    margin-top: 42%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#RA {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 48%;
+    margin-top: 26%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#IG {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 26%;
+    margin-top: 26%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#Volta {
+    display: flexbox;
+    position: absolute;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 4%;
+    margin-top: 26%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#resultado {
+    color: white;
+    background-color: rgb(117, 117, 117);
+    border-radius: 6%;
+    border-style: solid;
+    width: 530px;
+    height: 70px;
+    margin-left: 13%;
+    margin-top: 10%;position: absolute;
+    font-size: 50px;
+}
+
+::placeholder {
+    color: aliceblue;
+}
+
+
+
+#b0:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b1:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b2:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b3:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b4:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b5:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b6:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b7:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b8:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#b9:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#AC:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#M:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#V:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#S:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#D:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#RA:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+#IG:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3); 
+}
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <button id="b0" type="button" onclick="insert('0')">0</button>
+        <button id="b1" type="button" onclick="insert('1')">1</button>
+        <button id="b2" type="button" onclick="insert('2')">2</button>
+        <button id="b3" type="button" onclick="insert('3')">3</button>
+        <button id="b4" type="button" onclick="insert('4')">4</button>
+        <button id="b5" type="button" onclick="insert('5')">5</button>
+        <button id="b6" type="button" onclick="insert('6')">6</button>
+        <button id="b7" type="button" onclick="insert('7')">7</button>
+        <button id="b8" type="button" onclick="insert('8')">8</button>
+        <button id="b9" type="button" onclick="insert('9')">9</button>
+        <button  id="AC" type="reset" onclick="clean()">AC</button>
+        <button id="M" type="button" onclick="insert('+')">+</button>
+        <button id="V" type="button" onclick="insert('*')">*</button>
+        <button id="S" type="button" onclick="insert('-')">-</button>
+        <button id="D" type="button" onclick="insert('/')">/</button>
+        <button id="RA" type="button">RA</button>
+        <button id="IG" type="button" onclick="calcular()">=</button>
+        <button id="Volta" type="button" onclick="back()"><</button>
+        <p id="resultado"></p>
+
+        <script>
+         function insert(num)
+         {
+            var numero = document.getElementById('resultado').innerHTML;
+            document.getElementById('resultado').innerHTML = numero + num;
+         }
+         function clean()
+         {
+            document.getElementById('resultado').innerHTML = "";
+         }
+         function back()
+         {
+            var resultado = document.getElementById('resultado').innerHTML;
+            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1)
+         }
+
+         function calcular()
+         {
+            
+            var resultado = document.getElementById('resultado').innerHTML;
+            if(resultado)
+            {
+                document.getElementById('resultado').innerHTML = eval(resultado);
+            }
+         }
+        </script>
+    </div>
+</body>
+</html>
